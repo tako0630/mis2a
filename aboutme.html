@@ -26,8 +26,8 @@
 
 		<main class="container-fluid bg-primary text-white text-center">
 
-		照片
-		images.png
+		
+		<img src="images.png" alt="照片" class="img-fluid rounded-circle">
 		<div class="row">
 			<session id ="aboutme" class="col-lg-4">
 				<header>關於我</header>
@@ -44,7 +44,11 @@
 			</article>
 			<aside id ="youtube" class="col-lg-4">
 				<header>推薦影片</header>
-				<iframe src="https://www.youtube.com/embed/jDwVkXVHIqg" allowfullscreen></iframe>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/jDwVkXVHIqg" allowfullscreen 
+						class="embed-responsive-item">></iframe>
+				</div>
+
 
 				
 			</aside>
